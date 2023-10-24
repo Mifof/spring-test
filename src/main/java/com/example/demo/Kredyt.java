@@ -6,9 +6,9 @@ import java.math.RoundingMode;
 public class Kredyt {
     public static void main(String[] args) {
         // Wprowadź dane kredytu
-        double kwotaKredytu = 100000; // Kwota kredytu
+        double kwotaKredytu = 1000; // Kwota kredytu
         double oprocentowanie = 0.05; // Oprocentowanie w formie dziesiętnej (5%)
-        int liczbaMiesiecy = 360; // Liczba miesięcy
+        int liczbaMiesiecy = 36; // Liczba miesięcy
 
         // Oblicz stałą ratę
         double rata = obliczRate(kwotaKredytu, oprocentowanie, liczbaMiesiecy);
